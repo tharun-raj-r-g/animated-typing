@@ -1,0 +1,17 @@
+{
+  "name": "animated-typing",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "description": "A React component for animated typing effect.",
+  "author": "THARUN RAJ R G",
+  "license": "MIT",
+  "keywords": ["react", "typing", "animated", "text", "component"],
+  
+  "peerDependencies": {
+    "react": "^17.0.0 || ^18.0.0"
+  },
+  "scripts": {
+    "build": "babel src --out-dir dist --copy-files"
+  }
+}
